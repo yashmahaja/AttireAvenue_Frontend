@@ -4,7 +4,7 @@ import HomeSectionCard from '../HomeSectionCard/HomeSectionCard';
 import { Button } from '@headlessui/react';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-const HomeSectionCarousel = () => {
+const HomeSectionCarousel = ({data}) => {
 
     const responsive = {
         0: { items: 1 },
@@ -14,7 +14,7 @@ const HomeSectionCarousel = () => {
 
     const [activeIndex, setActiveIndex] = useState(0)
     // const items = [1, 1, 1, 1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,1, 1,].map((items) => <HomeSectionCard />)
-      const items = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map((_, index) => <HomeSectionCard key={index} />);
+      const items = data.slice(0,10).map((item, index) => <HomeSectionCard data = {item} key={index} />);
 
     const slidePrev = () => setActiveIndex(activeIndex - 1)
     const slideNext = () => setActiveIndex(activeIndex + 1)
@@ -27,9 +27,7 @@ const HomeSectionCarousel = () => {
             <div className='relative p-5'>
                 <AliceCarousel
                     items={items}
-                    controlsStrategy="alternate"
                     disableButtonsControls
-                    infinite
                     responsive={responsive}
                     disableDotsControls
                     onSlideChanged={syncActiveIndex}
