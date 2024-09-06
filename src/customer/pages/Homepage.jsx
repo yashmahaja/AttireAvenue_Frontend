@@ -15,7 +15,6 @@ const Homepage = () => {
        <HomeSectionCarousel data = {mens_kurta} sectionName={"Women's Saree"}/>
        <HomeSectionCarousel data = {mens_kurta} sectionName={"Women's Dress"}/>
       </div>
-      <Footer/>
     </div>
   )
 }
