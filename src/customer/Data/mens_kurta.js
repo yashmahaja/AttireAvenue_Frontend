@@ -168,7 +168,7 @@ export const mens_kurta=[
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kpodocw0/t-shirt/x/o/4/xl-wr-64-wrodss-original-imag3upwgq9n9fbv.jpeg?q=70",
+        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/o/u/d/s-up-kurta-31035-phone-sg-leman-original-imagzu7tgzgtmnvb.jpeg?q=70",
         "brand": "WRODSS",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Black",
