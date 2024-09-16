@@ -10,16 +10,14 @@ import Homepage from "../Pages/Homepage";
 import Navigation from "../customer/Components/Navbar/Navigation";
 import Cart from "../customer/Components/Cart/Cart";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import {Button} from "@mui/material";
 import { customTheme, customerTheme } from "../Admin/them/customeThem";
-import Order from "../customer/Components/orders/Order";
-import OrderDetails from "../customer/Components/orders/OrderDetails";
+import Order from "../customer/Components/Orders/Order";
+import OrderDetails from "../customer/Components/Orders/OrderDetails"
 import Checkout from "../customer/Components/Checkout/Checkout";
-import Footer from "../customer/Components/footer/Footer";
+import Footer from "../customer/Components/Footer/Footer";
 import PaymentSuccess from "../customer/Components/paymentSuccess/PaymentSuccess";
 import RateProduct from "../customer/Components/ReviewProduct/RateProduct";
 import SearchProduct from "../customer/Components/Product/Product/SearchProduct";
-
 const CustomerRoutes = () => {
     const location = useLocation();
     
