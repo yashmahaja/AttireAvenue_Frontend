@@ -1,23 +1,23 @@
 import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import ProductDetails from "../customer/Components/Product/ProductDetails/ProductDetails";
-import Product from "../customer/Components/Product/Product/Product";
+import ProductDetails from "../customer/components/Product/ProductDetails/ProductDetails";
+import Product from "../customer/components/Product/Product/Product";
 import Contact from "../Pages/Contact";
 import TearmsCondition from "../Pages/TearmsCondition";
 import PrivacyPolicy from "../Pages/PrivacyPolicy";
 import About from "../Pages/About";
 import Homepage from "../Pages/Homepage";
-import Navigation from "../customer/Components/Navbar/Navigation";
-import Cart from "../customer/Components/Cart/Cart";
+import Navigation from "../customer/components/Navbar/Navigation";
+import Cart from "../customer/components/Cart/Cart";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { customTheme, customerTheme } from "../Admin/them/customeThem";
-import Order from "../customer/Components/Orders/Order";
-import OrderDetails from "../customer/Components/Orders/OrderDetails"
-import Checkout from "../customer/Components/Checkout/Checkout";
-import Footer from "../customer/Components/Footer/Footer";
-import PaymentSuccess from "../customer/Components/paymentSuccess/PaymentSuccess";
-import RateProduct from "../customer/Components/ReviewProduct/RateProduct";
-import SearchProduct from "../customer/Components/Product/Product/SearchProduct";
+import Order from "../customer/components/Orders/Order";
+import OrderDetails from "../customer/components/Orders/OrderDetails"
+import Checkout from "../customer/components/Checkout/Checkout";
+import Footer from "../customer/components/Footer/Footer";
+import PaymentSuccess from "../customer/components/paymentSuccess/PaymentSuccess";
+import RateProduct from "../customer/components/ReviewProduct/RateProduct";
+import SearchProduct from "../customer/components/Product/Product/SearchProduct";
 const CustomerRoutes = () => {
     const location = useLocation();
     
