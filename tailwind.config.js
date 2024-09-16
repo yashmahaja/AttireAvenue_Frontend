@@ -1,13 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: [
+    "./src/customer/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
-    extend: {
-      inset: {
-        '-30': '-30px',
-        '-54': '-54px',
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
