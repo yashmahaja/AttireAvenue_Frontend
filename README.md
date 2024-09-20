@@ -4,10 +4,12 @@ Welcome to the AttireAvenue frontend repository. AttireAvenue is a full-stack e-
 
 
  **Front End**
+ 
 ![AttireAvenue Dashboard](./assets/Gif.gif)
 
 
  **Admin Panel**
+ 
 ![AttireAvenue Dashboard](./assets/pageadmin.png)
 
 ## Table of Contents
@@ -56,5 +58,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/attireavenue-frontend.git
+   git clone https://github.com/yashmahaja/attireavenue-frontend.git
    cd attireavenue-frontend
+   npm install
+   npm start
