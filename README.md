@@ -2,6 +2,12 @@
 
 Welcome to the AttireAvenue frontend repository. AttireAvenue is a full-stack e-commerce platform that offers a comprehensive solution for managing products, customers, orders, and earnings.
 
+
+# **Front End**
+![AttireAvenue Dashboard](./assets/Gif.gif)
+
+
+# **Admin Panel**
 ![AttireAvenue Dashboard](./assets/pageadmin.png)
 
 ## Table of Contents
